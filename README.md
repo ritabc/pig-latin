@@ -42,7 +42,7 @@ Translate text into Pig Latin
 * For words beginning with one+ consonant, move the first consonant+ to the end of the word, then add 'ay' to the end of the word
   - _Example Input: _ school
   - _Example Output: _ oolschay  
-* For words beginning with q, move "u" along with the q to the end of the word, then add 'ay' to the end of the word
+* For words beginning with qu, move "u" along with the q to the end of the word, then add 'ay' to the end of the word
   - _Example Input: _ quit
   - _Example Output: _ itquay     
 * For words beginning with a group of consonants containing qu, where q does not come first, move the first consonants and the "u" to the end of the word, then add 'ay' to the end of the word
