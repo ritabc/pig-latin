@@ -39,21 +39,27 @@ Translate text into Pig Latin
 * For words beginning with 2 consonants, move the 2 consonants to the end of the word, then add 'ay' to the end of the word
   - _Example Input: _ cheers
   - _Example Output: _ eerschay
-  - _Example Input: _
-  - _Example Output: _  
-* * For words beginning with one+ consonant, move the first consonant+ to the end of the word, then add 'ay' to the end of the word
-  - _Example Input: _school
-  - _Example Output: _oolschay  
+* For words beginning with one+ consonant, move the first consonant+ to the end of the word, then add 'ay' to the end of the word
+  - _Example Input: _ school
+  - _Example Output: _ oolschay  
 * For words beginning with q, move "u" along with the q to the end of the word, then add 'ay' to the end of the word
-  - _Example Input: _quit
-  - _Example Output: _itquay     
+  - _Example Input: _ quit
+  - _Example Output: _ itquay     
 * For words beginning with a group of consonants containing qu, where q does not come first, move the first consonants and the "u" to the end of the word, then add 'ay' to the end of the word
   - _Example Input: _ squeal
   - _Example Output: _ ealsquay
-
+* Translate a string of words (separated by only spaces) into pig latin
+  - _Example Input: _ The pig flew
+  - _Example Output: _ ethay igpay ewflay
+* Translate a string of words which includes commas or other punctuation into pig latin, ignoring punctuation
+  - _Example Input: _ The pig flew, quickly, away. She was chased by the hog farmer.
+  - _Example Output: _ ethay igpay ewflay icklyquay awayay eshay asway asedchay byay ethay oghay armerfay
+* Optional (if we have time) Translate a string of words which includes commas or other punctuation into pig latin, keeping punctuation entact
+  - _Example Input: _ The pig flew, quickly, away. She was chased by the hog farmer.
+  - _Example Output: _ ethay igpay ewflay, icklyquay, awayay. eshay asway asedchay byay ethay oghay armerfay.   
 ## Links
-[Here](https://github.com/ritabc/pig-latin) is a link to Rita's public repository.
-[Here](https://github.com/nickrossbrown/pig-lating) is a link to Nick's public repository.
+* [Here](https://github.com/ritabc/pig-latin) is a link to Rita's public repository.
+* [Here](https://github.com/nickrossbrown/pig-lating) is a link to Nick's public repository.
 
 ## License
 
